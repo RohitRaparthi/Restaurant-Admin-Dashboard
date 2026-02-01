@@ -8,8 +8,8 @@ Built using **React, Node.js, Express, and MongoDB**, following real-world best 
 
 ## 🚀 Live Demo
 
-- **Frontend (Netlify):** https://your-frontend-url.netlify.app  
-- **Backend API (Render):** https://your-backend-url.onrender.com  
+- **Frontend (Netlify):** https://rohitrestaurantadmindashboard.netlify.app/
+- **Backend API (Render):** https://restaurant-admin-dashboard-xn7t.onrender.com  
 
 ---
 
