@@ -1,0 +1,86 @@
+.orders-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.order-card {
+  background: white;
+  padding: 16px;
+  border-radius: 14px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+  transition: transform 0.2s;
+}
+
+.order-card:hover {
+  transform: translateY(-4px);
+}
+
+.order-card h3 {
+  color: #4f46e5;
+  margin-bottom: 8px;
+}
+
+.status-select {
+  margin-top: 10px;
+  width: 100%;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.status-select.pending {
+  background: #fde68a;
+}
+
+.status-select.preparing {
+  background: #bfdbfe;
+}
+
+.status-select.ready {
+  background: #e9d5ff;
+}
+
+.status-select.delivered {
+  background: #bbf7d0;
+}
+
+.status-select.cancelled {
+  background: #fecaca;
+}
+
+.status-select option {
+  background: white;
+}
+.order-details-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 80px);
+}
+
+.order-details-card {
+  background: white;
+  padding: 25px;
+  width: 420px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.order-details-card h2 {
+  color: #4f46e5;
+  margin-bottom: 10px;
+}
+
+.order-item-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+}
+
+.order-total {
+  color: #16a34a;
+  text-align: right;
+}
